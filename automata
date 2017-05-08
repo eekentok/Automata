@@ -1,0 +1,13 @@
+#!/bin/bash
+#Automata(R)
+
+echo "Welcome to Automata \o/"
+echo "Available test cases are:"
+ls selenium_test_files
+ruby har.rb
+sleep 4s
+echo "How many threads?"
+read thread
+jmeter -n -t ruby-jmeter.jmx -Jusers=$thread -l log.xlsx
+
+
