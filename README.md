@@ -15,9 +15,20 @@
 
 # Gemlist
 
-* [ruby-jmeter], [recursive-open-struct], [json], [pry-byebug], [rubygems], [bundler/setup], [selenium-webdriver], [browsermob/proxy].
+* [ruby-jmeter], [recursive-open-struct], [json], [pry-byebug], [rubygems], [bundler/setup], [selenium-webdriver], [browsermob/proxy]
 
 # Test Cases
 
 * Please create test case files in "selenium_test_files" folder in (.rb) format.
+
+# Step-by-step guide:
+
+* Make sure you have Apache JMeter and Selenium Mozilla Plugin
+* After creating a test case in Selenium, go Options -> Format -> Ruby/Test::Unit/WebDriver
+* Copy the [def test_untitled] method and paste into the file you created in selenium_test_files file. After copying it, you are ready to start!
+* Go to the directory of Automata and type "./automata" in console.
+* After executing of the program, it asks which test file you want to use and how many thread(s) you want.
+* Enjoy!
+
+
 
