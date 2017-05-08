@@ -8,7 +8,8 @@
 
 * http://stackoverflow.com/questions/37720892/you-dont-have-write-permissions-for-the-var-lib-gems-2-3-0-directory
 
-* https://github.com/mozilla/geckodriver/releases (after download,file should be copied to /usr/bin directory... -> { sudo cp geckodriver /usr/bin })
+* https://github.com/mozilla/geckodriver/releases (after download,file should be copied to /usr/bin directory...  -> 
+{ sudo cp geckodriver /usr/bin })
 
 * Gems need to be installed is stated below as follows;
 
