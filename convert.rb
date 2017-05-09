@@ -19,7 +19,7 @@ module HARtoJMX
         { name: 'Accept', value: 'text/javascript, text/html, application/xml, text/xml, */*' }
       ]
 
-      threads count: 10 do
+      threads count: 1 do
 
         har.log.entries.collect {|entry| entry.pageref }.uniq.each do |page|
 
